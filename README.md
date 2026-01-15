@@ -8,7 +8,11 @@ This repository hosts a research-oriented recommendation engine designed to sugg
 
 By analyzing movie plot summaries, genres, and keywords, the system overcomes the **Cold-Start Problem** (recommending without user history). The core objective is to optimize **Precision@K** and visualize the semantic relationships between films using dimensionality reduction.
 
-## **2. Methodology & Architectures**
+## **2. Dataset**
+
+[The Movies Dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset) (Subset of 45,000 movies).
+
+## **3. Methodology & Architectures**
 
 The project implements a progressive pipeline, treating the problem through four levels of complexity:
 
@@ -30,17 +34,14 @@ The project implements a progressive pipeline, treating the problem through four
 * **Formula:** 
 * **Goal:** To leverage the contextual power of Transformers while retaining the keyword specificity of statistical models.
 
-
-* **Performance:** Achieves State-of-the-Art accuracy by simulating a "reading comprehension" task rather than simple vector distance.
-
-## **3. Visualization**
+## **4. Visualization**
 
 The project includes a custom **Dual-View Visualization Engine**:
 
 1. **Global Map:** Uses **t-SNE** to project the high-dimensional movie universe into 2D, revealing genre clusters.
 2. **Local Zoom:** Dynamically focuses on the query movie and its top 10 recommendations, using `adjustText` to prevent label overlapping.
 
-## **4. Key Results**
+## **5. Key Results**
 
 The evolution of the model shows a clear trajectory in performance (measured via Genre Matching Precision):
 
