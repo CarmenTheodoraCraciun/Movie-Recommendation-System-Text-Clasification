@@ -47,6 +47,6 @@ The evolution of the model shows a clear trajectory in performance (measured via
 
 | Model Architecture | Technology | Accuracy (Approx) | Characteristics |
 | --- | --- | --- | --- |
-| **Baseline** | LSA / SVD | 83.80% | Fast, rigid, misses context. |
-| **Deep Learning** | SBERT (MPNet) | 89.60% | Understands context, good clustering. |
+| **Baseline** | LSA / SVD | 85.80% | Fast, rigid, misses context. |
+| **Deep Learning** | SBERT (MPNet) | 95.80% | Understands context, good clustering. |
 | **Hybrid** | MPNet + LSA | 92.00% | Balanced, robust against edge cases. |
